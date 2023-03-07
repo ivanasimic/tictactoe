@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
+    
     <RelativeLayout
         android:layout_width="90dp"
         android:layout_height="90dp"
@@ -20,6 +19,40 @@
             android:layout_height="match_parent"
             android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage5">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn4"
+        android:layout_toLeftOf="@+id/btn5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage4">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn6"
+        android:layout_toRightOf="@+id/btn5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage6">
 
         </ImageView>
 
@@ -65,6 +98,165 @@
 
     </RelativeLayout>
 
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="See your high score"
+        android:id="@+id/HighScore"
+        android:textSize="15sp" >
+    </Button>
 
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn8"
+        android:layout_below="@id/btn5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage8">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn7"
+        android:layout_below="@id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/btn8">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage7">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn9"
+        android:layout_below="@id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btn8">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage9">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe App"
+            android:textSize="30sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="New Game"
+            android:id="@+id/Reset"
+            android:textSize="15sp" >
+
+        </Button>
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn2"
+        android:layout_above="@id/btn5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage2">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn1"
+        android:layout_above="@id/btn5"
+        android:layout_toLeftOf="@+id/btn2"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage1">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn3"
+        android:layout_above="@id/btn5"
+        android:layout_toRightOf="@+id/btn2"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/buttonImage3">
+
+        </ImageView>
+
+    </RelativeLayout>
 
 </RelativeLayout>
