@@ -23,7 +23,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage5">
 
         </ImageView>
@@ -40,7 +39,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage4">
 
         </ImageView>
@@ -57,7 +55,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage6">
 
         </ImageView>
@@ -128,7 +125,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage8">
 
         </ImageView>
@@ -147,7 +143,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage7">
 
         </ImageView>
@@ -166,7 +161,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage9">
 
         </ImageView>
@@ -219,7 +213,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage2">
 
         </ImageView>
@@ -238,7 +231,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage1">
 
         </ImageView>
@@ -258,7 +250,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
             android:id="@+id/buttonImage3">
 
         </ImageView>
