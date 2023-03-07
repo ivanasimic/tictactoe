@@ -106,7 +106,7 @@
         android:layout_marginTop="120dp"
         android:text="See your high score"
         android:id="@+id/HighScore"
-        android:textSize="15sp" >
+        android:textSize="20sp" >
     </Button>
 
     <RelativeLayout
@@ -194,7 +194,7 @@
             android:layout_marginTop="50dp"
             android:text="New Game"
             android:id="@+id/Reset"
-            android:textSize="15sp" >
+            android:textSize="20sp" >
 
         </Button>
         
