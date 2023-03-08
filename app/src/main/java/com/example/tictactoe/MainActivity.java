@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private String playerOne = "X";
     int b1=5,b2=5,b3=5,b4=5,b5=5,b6=5,b7=5,b8=5,b9=5,i=0;
     private Button Reset;
-    //private Button HighScore;
+    private Button HighScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         Reset=findViewById(R.id.Reset);
+        HighScore=findViewById(R.id.HighScore);
 
+
+        HighScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(), HighScoreActivity.class);
+                startActivity(intent);
+            }
+        });
 
         Reset.setOnClickListener(new View.OnClickListener() {
             @Override

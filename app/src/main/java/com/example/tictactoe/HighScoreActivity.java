@@ -1,11 +1,21 @@
 package com.example.tictactoe;
 
-// import android.widget.Button;
+import android.os.Bundle;
 
-// private Button HighScore;
+import com.google.android.material.snackbar.Snackbar;
 
-public class HighScoreActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
 
 
-    // HighScore=findViewById(R.id.HighScore);
+
+public class HighScoreActivity extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
 }
