@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private Button HighScore;
 
 
+
+    // das Spiel habe ich mit Hilfe des Tutorials gemacht https://www.youtube.com/watch?v=9TY22wJAcEI
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
