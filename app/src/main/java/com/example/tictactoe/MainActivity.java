@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     ImageView button1,button2,button3,button4,button5,button6,button7,button8,button9;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     int b1=5,b2=5,b3=5,b4=5,b5=5,b6=5,b7=5,b8=5,b9=5,i=0;
     private Button Reset;
     private Button HighScore;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
