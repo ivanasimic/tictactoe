@@ -1,33 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HighScoreActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.Tictactoe.AppBarOverlay">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.Tictactoe.PopupOverlay" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/icon" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" >
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe App"
+        android:textSize="30sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:text="your high score:"
+            android:textSize="30sp"
+            android:layout_marginTop="90dp"
+            android:textAlignment="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true" >
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Wins:"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Best Time:"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+
+    </LinearLayout>
+    </RelativeLayout>
